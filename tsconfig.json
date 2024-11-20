@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2015"],
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "esModuleInterop": true,  // Add this line
+    "strict": true,            // Optional: This enables strict type-checking
+    "skipLibCheck": true,      // Optional: Skips type checking of declaration files
+    "forceConsistentCasingInFileNames": true  // Optional: Ensures consistent casing in file names
+  },
+  "include": [
+    "src"
+  ]
+}
